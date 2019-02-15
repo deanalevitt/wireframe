@@ -1,0 +1,235 @@
+/* General Styles */
+
+html {
+  	font-size: 16px;
+  	background-color: #F6F6F6;
+  	color: #000000;
+  	font-family: "Montserrat", sans-serif;
+  	font-weight: 300;
+}
+
+@font-face {
+  font-family: "News Cycle";
+  src: url(../fonts/news-cycle/NewsCycle-Regular.ttf);
+}
+
+@font-face {
+  font-family: "News Cycle Bold";
+  src: url(../fonts/news-cycle/NewsCycle-Bold.ttf);
+}
+
+.border_div {
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px #E7E7E7 solid;
+}
+
+/* Header Styles */
+
+header {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px #E7E7E7 solid;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: #4E080C;
+}
+
+h3 {
+	font-family: "News Cycle Bold", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #C81414;
+	font-weight: bold;
+}
+
+p {
+	font-size: 0.750rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header_container {
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	flex-grow: 1;
+	margin: 1rem 2rem;
+}
+
+#logo img {
+	height: 2rem;
+}
+
+nav {
+	margin-right: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+nav img,
+	nav span {
+		margin-left: 2rem;
+}
+
+nav span {
+	text-transform: uppercase;
+	font-size: 0.750rem;
+}
+
+/* Top Discussions Styles */
+
+#top_discussions, 
+	 #comment_feed {
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+
+#top_discussions h2, 
+	 #comment_feed h2 {
+		 margin: 3rem 0;
+}
+
+#article_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#article_container article {
+	background-color: white;
+	border: 1px #E7E7E7 solid;
+	border-radius: 5px;
+}
+
+#article_container article {
+	width: 18rem;
+}
+
+.article_text {
+	padding: 2rem;	
+}
+
+.website_domain,
+	.article_title {
+		display: block;
+		margin-bottom: 1rem;
+}
+
+.website_domain a {
+	color: #5b5b5b;
+	font-size: 0.750rem;
+}
+
+.article_text p {
+	padding-top: 1rem;
+	line-height: 1.2rem;
+}
+
+article img {
+	width: 100%;
+}
+
+.comment_footer {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}
+
+.add_comment {
+	display: inline-block;
+	padding: 0.750rem;
+	background-color: #C81414;
+	color: white;
+	z-index: 100;
+	position: relative;
+	left: 15rem;
+	top: -1.5rem;
+	border-radius: 5px;
+}
+
+
+.comment_icon {
+	height: auto;
+	width: 1.2rem;
+}
+
+.num_comments {
+	font-size: 0.850rem;
+	padding-left: 0.5rem;
+}
+
+.comment_icon,
+	.num_comments {
+		margin-top: -2.5rem;
+}
+
+
+/* Latest Comments */
+
+.latest_comments_article {
+	background-color: white;
+	padding: 2rem;
+	margin-bottom: 1rem;
+	border: 1px #E7E7E7 solid;
+	border-radius: 5px;
+}
+
+.identity {
+	padding-bottom: 1.5rem;
+}
+
+.username {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #4E080C;
+	margin-right: 1rem;
+}
+
+.time_of_comment {
+	color: #707070;
+	font-size: 0.850rem;
+}
+
+.comment {
+	line-height: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+.reference_article {
+	display: flex;
+	border: 1px #E7E7E7 solid;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.reference_article h3 {
+	padding-bottom: 0.5rem;
+}
+
+.reference_article p {
+	padding-bottom: 0.5rem;
+	line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
